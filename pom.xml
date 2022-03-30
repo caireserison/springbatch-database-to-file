@@ -8,11 +8,10 @@
 		<version>2.6.4</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.example.spring.compare.files</groupId>
-	<artifactId>springbatch-compare-files</artifactId>
+	<groupId>com.example.spring.database.file</groupId>
+	<artifactId>springbatch-database-file</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>springbatch.compare.files</name>
-	<description>POC de comparação de arquivos, validando linha a linha se necessário</description>
+	<name>springbatch.database.file</name>
 	<properties>
 		<java.version>11</java.version>
 	</properties>

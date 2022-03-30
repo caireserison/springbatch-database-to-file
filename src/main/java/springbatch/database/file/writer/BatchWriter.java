@@ -1,4 +1,4 @@
-package springbatch.compare.files.writer;
+package springbatch.database.file.writer;
 
 import org.springframework.batch.core.configuration.annotation.StepScope;
 import org.springframework.batch.item.file.FlatFileItemWriter;
@@ -7,7 +7,7 @@ import org.springframework.batch.item.file.transform.DelimitedLineAggregator;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.core.io.FileSystemResource;
-import springbatch.compare.files.model.ExampleModel;
+import springbatch.database.file.model.ExampleModel;
 
 @Configuration
 public class BatchWriter {

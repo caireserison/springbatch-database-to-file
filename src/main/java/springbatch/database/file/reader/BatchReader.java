@@ -1,11 +1,11 @@
-package springbatch.compare.files.reader;
+package springbatch.database.file.reader;
 
 import org.springframework.batch.core.configuration.annotation.StepScope;
 import org.springframework.batch.item.database.JdbcCursorItemReader;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.jdbc.core.RowMapper;
-import springbatch.compare.files.model.ExampleModel;
+import springbatch.database.file.model.ExampleModel;
 
 import javax.sql.DataSource;
 import java.sql.ResultSet;

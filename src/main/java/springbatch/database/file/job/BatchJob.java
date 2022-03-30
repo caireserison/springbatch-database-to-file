@@ -1,4 +1,4 @@
-package springbatch.compare.files.job;
+package springbatch.database.file.job;
 
 import org.springframework.batch.core.Job;
 import org.springframework.batch.core.Step;

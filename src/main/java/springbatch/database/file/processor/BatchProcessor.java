@@ -1,9 +1,9 @@
-package springbatch.compare.files.processor;
+package springbatch.database.file.processor;
 
 import org.springframework.batch.core.configuration.annotation.StepScope;
 import org.springframework.batch.item.ItemProcessor;
 import org.springframework.context.annotation.Configuration;
-import springbatch.compare.files.model.ExampleModel;
+import springbatch.database.file.model.ExampleModel;
 
 @Configuration
 public class BatchProcessor implements ItemProcessor<ExampleModel, ExampleModel> {

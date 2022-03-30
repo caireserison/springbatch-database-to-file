@@ -1,4 +1,4 @@
-package springbatch.compare.files;
+package springbatch.database.file;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

@@ -1,4 +1,4 @@
-package springbatch.compare.files.model;
+package springbatch.database.file.model;
 
 import lombok.Builder;
 import lombok.Getter;
