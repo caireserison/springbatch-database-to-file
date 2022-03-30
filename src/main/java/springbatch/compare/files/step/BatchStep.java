@@ -7,6 +7,7 @@ import org.springframework.batch.item.file.FlatFileItemWriter;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import springbatch.compare.files.model.ExampleModel;
+import springbatch.compare.files.processor.BatchProcessor;
 
 @Configuration
 public class BatchStep {
@@ -24,6 +25,7 @@ public class BatchStep {
                 .get("executeStep")
                 .<ExampleModel, ExampleModel>chunk(2)
                 .reader(reader)
+                .processor(new BatchProcessor())
                 .writer(writer)
                 .build();
     }
